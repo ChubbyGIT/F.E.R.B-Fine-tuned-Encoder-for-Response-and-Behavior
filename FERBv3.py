@@ -15,6 +15,7 @@ st.write(
     "designed for intelligent and context-aware interactions. Built upon transformer-based "
     "architectures like BERT or GPT, it utilizes fine-tuned encoders to process and generate "
     "natural language responses efficiently."
+    
 )
 
 st.subheader("Key Features:")
@@ -51,8 +52,11 @@ st.write(
     "**Abhigyan Das** is a final-year Computer Science student at Vellore Institute of Technology, "
     "with expertise in AI, machine learning, cybersecurity, and web development. He has interned at multiple "
     "organizations, working on projects ranging from petroleum price prediction to process management web applications. "
-    "With experience in deep learning models like VGGNet, LSTM, and BiLSTM, he is passionate about developing intelligent systems."
+    "With experience in deep learning models like VGGNet, LSTM, and BiLSTM, he is passionate about developing intelligent syssttems."
 )
+st.image("C:/Users/91988/Desktop/codes/F.E.R.B/Trial Codes/AbhigyanPic.jpg", 
+         caption="Abhigyan Das", 
+         width=300)  # Adjust width as needed
 
 # Buttons for External Links
 st.markdown("---")
@@ -63,8 +67,8 @@ with col1:
         st.markdown("[Click here](https://colab.research.google.com/drive/1jVsmDHGltxlV8ZbAmL6dkC1R1LUwq2Yk?usp=sharing)")
 
 with col2:
-    if st.button("Architecture Page"):
-        st.markdown("[Click here](https://www.wikipedia.org)")
+    if st.button("GitHub Page"):
+        st.markdown("[Click here](https://github.com/ChubbyGIT/F.E.R.B-Fine-tuned-Encoder-for-Response-and-Behavior)")
 
 with col3:
     if st.button("Future Scope"):
