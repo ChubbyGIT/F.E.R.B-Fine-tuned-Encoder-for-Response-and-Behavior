@@ -141,7 +141,7 @@ st.markdown("---")
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    if st.button("Colab Link"):
+    if st.button("Version 3"):
         st.markdown("[Click here](https://colab.research.google.com/drive/1jVsmDHGltxlV8ZbAmL6dkC1R1LUwq2Yk?usp=sharing)")
 
 with col2:
@@ -149,10 +149,18 @@ with col2:
         st.markdown("[Click here](https://github.com/ChubbyGIT/F.E.R.B-Fine-tuned-Encoder-for-Response-and-Behavior)")
 
 with col3:
-    if st.button("Future Scope"):
+    if st.button("Version 4"):
         st.markdown("[Click here](https://colab.research.google.com/drive/1jccaA-87biLWqwp9QnoGoMRKrX03p6P8?usp=sharing#scrollTo=WVa0caPZlogN)")
 
 
+st.title("Version 3")
+
+# Path to your video file
+video_file = r"C:\Users\91988\Desktop\codes\F.E.R.B\Trial Codes\F.E.R.B – aboonaji - Colab - Google Chrome 2025-02-18 19-46-31.mp4"
+
+
+# Display the video
+st.video(video_file)
 
 st.title("Version 4")
 
